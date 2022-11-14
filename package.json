@@ -6,7 +6,9 @@
   "author": "Dima Brook <dima@xp.network>",
   "license": "MIT",
   "scripts": {
-    "mint":"tsc && node ./dist/mint.js"
+    "mint":"tsc && node ./dist/mint.js",
+    "list-nfts":"tsc && node ./dist/list.js",
+    "transfer":"tsc && node ./dist/transfer.js"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
