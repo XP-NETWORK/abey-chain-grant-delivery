@@ -1,0 +1,23 @@
+{
+    "name": "AbeyChain in XP.NETWORK Bridge",
+    "description": "AbeyChain in XP.NETWORK Bridge",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYqgZpZvxF3Cj6bMpNBrYTqGgtzvNE9YNAPrDRHe4XasE",
+    "attributes":[
+        {
+            "trait_type": "Original Chain",
+            "value": "Abeychain"
+        },
+        {
+            "trait_type": "Destination Chain",
+            "value": "BSC"
+        },
+        {
+            "trait_type": "Mainnet",
+            "value": true
+        },
+        {
+            "trait_type": "Staging",
+            "value": true
+        }
+    ]
+}

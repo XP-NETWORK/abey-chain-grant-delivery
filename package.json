@@ -1,0 +1,19 @@
+{
+  "name": "abey-chain-grant-delivery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/XP-NETWORK/abey-chain-grant-delivery.git",
+  "author": "Dima Brook <dima@xp.network>",
+  "license": "MIT",
+  "scripts": {
+    "mint":"tsc && node ./dist/mint.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "typescript": "^4.8.4",
+    "xp.network": "git+https://github.com/xp-network/xpjs#bleeding-edge"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}
