@@ -1,6 +1,6 @@
 # Milestone 3 delivery proofs
 
-## 1. Mainnet contract deployment - we have deployed smart contracts on the mainnet.
+## 1. Mainnet contract deployment 
 
 Mainnet Staging:
 
@@ -22,7 +22,7 @@ Mainnet Production:
 |Minter ERC721|[0xBb5e9896cEe600DaC470775B6f235Db105E861BD](https://scan.abeychain.com/address/0xBb5e9896cEe600DaC470775B6f235Db105E861BD)|
 |Minter ERC1155|[0x35c3c3959d19A310Fc052545fCC29200dc440CdA](https://scan.abeychain.com/address/0x35c3c3959d19A310Fc052545fCC29200dc440CdA)|
 
-## 2. JS Library integration - we will integrate Abey in the:
+## 2. JS Library integration
 
 ### 2.1 Validators
 
@@ -79,7 +79,13 @@ Mainnet Production: https://github.com/XP-NETWORK/xpjs/blob/secretjs/src/factory
 
 ### 2.5 Widget
 
-================= TODO =================
+Abeychain is accessable in the bridge widget:
+
+<center>
+
+![Widget](./assets/Widget.png)
+
+</center>
 
 ### 2.6 Explorer
 

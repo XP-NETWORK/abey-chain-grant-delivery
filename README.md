@@ -41,10 +41,8 @@ More in-detail instructions on using the bridge UI can be found [here](./ui_tuto
 ### Testnet Transactions
 https://testnet-explorer.abeychain.com/address/0x3fe9EfFa80625B8167B2F0d8cF5697F61D77e4a2
 
-# TODO
-
-## `Milestone 3` — Mainnet Integration
+## `Milestone 3` — [Mainnet Integration](./milestone3.md)
 
 | Delivery Date | Deliverable | Specification |
 |-|-|-|
-| 2 weeks | Mainnet Integration | 1. Mainnet contract deployment - we have deployed smart contracts on the mainnet.<br/>2. JS Library integration - we will integrate Abey in the <br/>&nbsp;&nbsp;&nbsp;&nbsp;+ validators<br/>&nbsp;&nbsp;&nbsp;&nbsp;+ UI <br/>&nbsp;&nbsp;&nbsp;&nbsp;+ NFT-Lister<br/>&nbsp;&nbsp;&nbsp;&nbsp;+ JS Library<br/>&nbsp;&nbsp;&nbsp;&nbsp;+ Widget<br/>&nbsp;&nbsp;&nbsp;&nbsp;+ Heartbeat  <br/>3. We will test that all the components properly work in the mainnet <br/>4. We will make announcements about integrating Abey in the bridge|
+| 2 weeks | Mainnet Integration | 1. [Mainnet contract deployment](./milestone3.md#1-mainnet-contract-deployment) - we have deployed smart contracts on the mainnet.<br/>2. [JS Library integration](./milestone3.md#2-js-library-integration) - we will integrate Abey in the <br/>&nbsp;&nbsp;&nbsp;&nbsp;+ [validators](./milestone3.md#21-validators)<br/>&nbsp;&nbsp;&nbsp;&nbsp;+ [UI](./milestone3.md#22-ui) <br/>&nbsp;&nbsp;&nbsp;&nbsp;+ [NFT-Lister](./milestone3.md#23-nft-indexer)<br/>&nbsp;&nbsp;&nbsp;&nbsp;+ [JS Library](./milestone3.md#24-js-library)<br/>&nbsp;&nbsp;&nbsp;&nbsp;+ [Widget](./milestone3.md#25-widget)<br/>&nbsp;&nbsp;&nbsp;&nbsp;+ [Explorer](./milestone3.md#26-explorer)  <br/>3. We have [tested](./milestone3.md#3-we-will-test-that-all-the-components-properly-work-in-the-mainnet) that all the components properly work in the mainnet <br/>4. We will make [announcements](./milestone3.md#4-we-will-make-announcements-about-integrating-abey-in-the-bridge) about integrating Abey in the bridge|
