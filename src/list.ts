@@ -16,24 +16,19 @@ const list = async (
 
 }
 
-(async () => {
+// UNCOMMENT BEFORE RUNNING yarn list-nfts
+// (async () => {
 
-    const {signer} = await setup();
+//     const {signer} = await setup();
 
-    // Retrieving the list
-    const nfts = await list(
-        signer.address
-    );
-    console.log(`Found: ${nfts.length} NFTs`);
-
-    // Selecting an NFT
-    const selected = nfts[nfts.length-1];
-    console.log("Selected NFT:", selected);
+//     // Retrieving the list
+//     const nfts = await list(
+//         signer.address
+//     );
+//     console.log(`Found NFTs:`, nfts);
     
-    exit(0);
-})().catch(e => {
-    console.error(e);
-    exit(1);
-})
+// })().catch(e => {
+//     console.error(e);
+// })
 
 export default list;
