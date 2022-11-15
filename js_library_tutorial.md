@@ -119,3 +119,67 @@ Minting With : 0x783eF7485DCF27a3Cf59F5A0A406eEe3f9b2AaeB
 }
 ✨  Done in 26.16s.
 ```
+
+Token received on BSC: https://testnet.bscscan.com/tx/0xa8602070ab073225c5ee5823270adaf19f0f5f71c6021f72e907cb4de3d79b46
+
+## 4. Viewing wrapped metadata:
+
+For unmapped contracts with generated target [tokenID](https://testnet.bscscan.com/token/0x783ef7485dcf27a3cf59f5a0a406eee3f9b2aaeb?a=30778394530356378197902916744):
+
+<base-uri>/w/<tokenId>
+
+https://bridge-wnftapi.herokuapp.com/w/30778394530356378197902916744
+
+```json
+{
+   "name": "AbeyChain in XP.NETWORK Bridge",
+   "description": "AbeyChain in XP.NETWORK Bridge",
+   "decimals": 0,
+   "isBooleanAmount": true,
+   "image": "https://gateway.pinata.cloud/ipfs/QmYqgZpZvxF3Cj6bMpNBrYTqGgtzvNE9YNAPrDRHe4XasE",
+   "artifactUri": "https://gateway.pinata.cloud/ipfs/QmYqgZpZvxF3Cj6bMpNBrYTqGgtzvNE9YNAPrDRHe4XasE",
+   "wrapped": {
+      "contract": "0x34933A5958378e7141AA2305Cdb5cDf514896035",
+      "tokenId": "20",
+      "contractType": 721,
+      "origin": "33",
+      "original_uri": "https://gateway.pinata.cloud/ipfs/QmXp1rXokpwLMHj1y8MXEjkiRQWJaVtUs8YKTYEz1sfJtn",
+      "mint_with": "0x783eF7485DCF27a3Cf59F5A0A406eEe3f9b2AaeB",
+      "source_mint_ident": "0x34933A5958378e7141AA2305Cdb5cDf514896035",
+      "source_token_id": "20"
+    },
+"attributes": [
+      {
+         "trait_type": "Original Chain",
+         "value": "AbeyChain"
+      },
+      {
+         "trait_type": "Original Chain Nonce",
+         "value": "33"
+      },
+      {
+         "trait_type": "Original URI",
+         "value": "https://gateway.pinata.cloud/ipfs/QmXp1rXokpwLMHj1y8MXEjkiRQWJaVtUs8YKTYEz1sfJtn"
+      },
+      {
+         "trait_type": "Original Chain",
+         "value": "Abeychain"
+      },
+      {
+         "trait_type": "Destination Chain",
+         "value": "BSC"
+      },
+      {
+         "trait_type": "Mainnet",
+         "value": true
+      },
+      {
+         "trait_type": "Staging",
+         "value": true
+      }
+   ],
+   "displayUri": "https://gateway.pinata.cloud/ipfs/QmYqgZpZvxF3Cj6bMpNBrYTqGgtzvNE9YNAPrDRHe4XasE",
+   "thumbnailUri": "https://gateway.pinata.cloud/ipfs/QmYqgZpZvxF3Cj6bMpNBrYTqGgtzvNE9YNAPrDRHe4XasE",
+   "ipfs": false
+}
+```
