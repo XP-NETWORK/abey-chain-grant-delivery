@@ -124,7 +124,7 @@ Token received on BSC: https://testnet.bscscan.com/tx/0xa8602070ab073225c5ee5823
 
 ## 4. Viewing wrapped metadata:
 
-For unmapped contracts with generated target [tokenID](https://testnet.bscscan.com/token/0x783ef7485dcf27a3cf59f5a0a406eee3f9b2aaeb?a=30778394530356378197902916744):
+4.1 For unmapped contracts with generated target [tokenID](https://testnet.bscscan.com/token/0x783ef7485dcf27a3cf59f5a0a406eee3f9b2aaeb?a=30778394530356378197902916744):
 
 <base-uri>/w/<tokenId>
 
@@ -183,3 +183,21 @@ https://bridge-wnftapi.herokuapp.com/w/30778394530356378197902916744
    "ipfs": false
 }
 ```
+
+4.2 For mapped contracts:
+
+baseUri is formed like this:
+
+ERC-721: `<w-nft-api>/w/dec/<source chain id>/<source contract address>/<source token id>`
+
+ERC-1155: `<w-nft-api>/w/<source chain id>/<source contract address>/<hex-encoded-source token id>`
+
+Where:
+
+w-nft-api = https://nft.xp.network (for mainnet)
+
+w-nft-api = https://bridge-wnftapi.herokuapp.com (for testnet)
+
+The source chain id can be checked here: https://docs.xp.network/docs/Multibridge2.0/chain_nonces.
+
+It must be a number from 2 - 33 (the upper bound can be higher as we keep adding more chains)
